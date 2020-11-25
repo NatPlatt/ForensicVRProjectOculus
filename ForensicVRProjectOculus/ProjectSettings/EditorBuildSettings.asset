@@ -4,9 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Tyler'sScene.unity
+    guid: 5f88a3cd8dfb8cc4ba7df2a883cf5287
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f4b606fc9f585f048acbb935bbbcb10d,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 0c9eb01722facdc40acaa662d23807dc,
+      type: 2}
+    xr.sdk.mock-hmd.settings: {fileID: 11400000, guid: ae919c9355d91354c80a44641883dcae,
       type: 2}

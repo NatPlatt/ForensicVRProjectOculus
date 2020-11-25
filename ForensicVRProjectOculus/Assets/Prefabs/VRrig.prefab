@@ -126,7 +126,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1568
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
@@ -463,7 +463,7 @@ MonoBehaviour:
   m_SphereCastRadius: 0
   m_RaycastMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 1568
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
@@ -706,6 +706,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7389609540482862083}
+  - {fileID: 6578208154522858701}
   m_Father: {fileID: 6339873891207235555}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -729,7 +730,8 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 8487514463063833339, guid: bc9e53ef4d1c7b644a6d88962fff9d73,
+    type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
@@ -760,12 +762,34 @@ MonoBehaviour:
       m_Calls: []
   m_OnSelectEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6339873890934379938}
+        m_MethodName: set_EnableLeftTeleport
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSelectExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6339873890934379938}
+        m_MethodName: set_EnableLeftTeleport
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectActionTrigger: 1
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
   m_PlayAudioClipOnSelectExit: 0
@@ -774,9 +798,9 @@ MonoBehaviour:
   m_AudioClipForOnHoverEnter: {fileID: 0}
   m_PlayAudioClipOnHoverExit: 0
   m_AudioClipForOnHoverExit: {fileID: 0}
-  m_PlayHapticsOnSelectEnter: 0
-  m_HapticSelectEnterIntensity: 0
-  m_HapticSelectEnterDuration: 0
+  m_PlayHapticsOnSelectEnter: 1
+  m_HapticSelectEnterIntensity: 0.3
+  m_HapticSelectEnterDuration: 0.1
   m_PlayHapticsOnSelectExit: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
@@ -842,6 +866,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5735110892789863102}
+  - {fileID: 6231600936773063478}
   m_Father: {fileID: 6339873891207235555}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -861,11 +886,12 @@ MonoBehaviour:
   m_EnableInputActions: 1
   m_PoseProvider: {fileID: 0}
   m_ControllerNode: 5
-  m_SelectUsage: 5
+  m_SelectUsage: 3
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 8487514463063833339, guid: 4ce2c7804f267d84ea07486b2591e3cb,
+    type: 3}
   m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
@@ -896,12 +922,34 @@ MonoBehaviour:
       m_Calls: []
   m_OnSelectEnter:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6339873890934379938}
+        m_MethodName: set_EnableRightTeleport
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSelectExit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6339873890934379938}
+        m_MethodName: set_EnableRightTeleport
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_SelectActionTrigger: 1
-  m_HideControllerOnSelect: 0
+  m_HideControllerOnSelect: 1
   m_PlayAudioClipOnSelectEnter: 0
   m_AudioClipForOnSelectEnter: {fileID: 0}
   m_PlayAudioClipOnSelectExit: 0
@@ -912,7 +960,7 @@ MonoBehaviour:
   m_AudioClipForOnHoverExit: {fileID: 0}
   m_PlayHapticsOnSelectEnter: 1
   m_HapticSelectEnterIntensity: 0.3
-  m_HapticSelectEnterDuration: 0.3
+  m_HapticSelectEnterDuration: 0.1
   m_PlayHapticsOnSelectExit: 0
   m_HapticSelectExitIntensity: 0
   m_HapticSelectExitDuration: 0
@@ -1168,13 +1216,13 @@ MonoBehaviour:
   m_RequiresOpaqueTextureOption: 2
   m_CameraType: 0
   m_Cameras: []
-  m_RendererIndex: -1
+  m_RendererIndex: 0
   m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 1
   m_VolumeTrigger: {fileID: 0}
   m_RenderPostProcessing: 0
-  m_Antialiasing: 0
+  m_Antialiasing: 1
   m_AntialiasingQuality: 2
   m_StopNaN: 0
   m_Dithering: 0
@@ -1211,6 +1259,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: rightControllerCube
+      objectReference: {fileID: 0}
+    - target: {fileID: 5208385098466997722, guid: 6e25d8307c2a84b4e91f76aba1241e50,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6722546312034051746, guid: 6e25d8307c2a84b4e91f76aba1241e50,
         type: 3}
@@ -1308,6 +1361,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: leftControllerCube
       objectReference: {fileID: 0}
+    - target: {fileID: 4604519363899350843, guid: d80cfd5f53cc365408a56b1e251bba73,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4904533310074363231, guid: d80cfd5f53cc365408a56b1e251bba73,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1391,4 +1449,164 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8987733151823373591, guid: d80cfd5f53cc365408a56b1e251bba73,
     type: 3}
   m_PrefabInstance: {fileID: 1889256844254161172}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6339873891549863749
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6339873890125196384}
+    m_Modifications:
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0343
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0359
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0050655385
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9525829
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30423328
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0015111568
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.425003
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.98601
+      objectReference: {fileID: 0}
+    - target: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_Name
+      value: Oculus Quest Controller - Left
+      objectReference: {fileID: 0}
+    - target: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c836783e3928a624e9ff9c70d4f21606, type: 3}
+--- !u!4 &6578208154522858701 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+    type: 3}
+  m_PrefabInstance: {fileID: 6339873891549863749}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6339873891586330511
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 6339873890236985569}
+    m_Modifications:
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.0075
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0343
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.0359
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.0050655385
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9525829
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30423328
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.0015111568
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 35.425003
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 179.98601
+      objectReference: {fileID: 0}
+    - target: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.614
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_Name
+      value: Oculus Quest Controller - Right
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cfa8dc06d611ba340b06bbefba58ee46, type: 3}
+--- !u!4 &6231600936773063478 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+    type: 3}
+  m_PrefabInstance: {fileID: 6339873891586330511}
   m_PrefabAsset: {fileID: 0}
