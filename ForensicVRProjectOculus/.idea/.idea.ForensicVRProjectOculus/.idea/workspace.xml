@@ -14,11 +14,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/LightTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRRayInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ALSColorSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Paintable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -48,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" />
       </list>
     </option>
   </component>
@@ -120,6 +124,9 @@
       <workItem from="1606259642675" duration="2418000" />
       <workItem from="1606513725204" duration="11277000" />
       <workItem from="1606601936966" duration="5131000" />
+      <workItem from="1606865691199" duration="22000" />
+      <workItem from="1606865729663" duration="820000" />
+      <workItem from="1606962321270" duration="795000" />
     </task>
     <servers />
   </component>
