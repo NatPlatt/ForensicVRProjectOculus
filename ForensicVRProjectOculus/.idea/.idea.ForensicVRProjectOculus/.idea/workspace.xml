@@ -39,7 +39,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" />
@@ -52,6 +51,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -127,6 +127,7 @@
       <workItem from="1606865691199" duration="22000" />
       <workItem from="1606865729663" duration="820000" />
       <workItem from="1606962321270" duration="795000" />
+      <workItem from="1606964829299" duration="1717000" />
     </task>
     <servers />
   </component>

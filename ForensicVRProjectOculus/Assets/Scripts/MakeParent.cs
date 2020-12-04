@@ -5,16 +5,21 @@ using UnityEngine;
 public class MakeParent : MonoBehaviour
 {
     public GameObject childObj;
+    public GameObject parentObj;
 
-    public void SetParent(GameObject newParent)
+    
+    public void SetParent()
     {
-        //makes the newParent obj the parent of the childObj
-        childObj.transform.parent = newParent.transform;
+        //make childObj child of parent object and move it
+        childObj.transform.SetParent(parentObj.transform);
+        childObj.transform.localPosition = parentObj.transform.localPosition;
+        childObj.transform.localRotation = parentObj.transform.localRotation;
+        childObj.transform.localScale = parentObj.transform.localScale;
         
         Debug.Log("Objects parent: " + childObj.transform.parent.name);
         
         //Check if the new parent has a parent object
-        if (newParent.transform.parent != null)
+        if (parentObj.transform.parent != null)
         {
             Debug.Log("Parents parent: "+ childObj.transform.parent.parent.name);
         }
@@ -22,6 +27,6 @@ public class MakeParent : MonoBehaviour
 
     public void DetachParent()
     {
-        transform.parent = null;
+        transform.SetParent(null);
     }
 }
