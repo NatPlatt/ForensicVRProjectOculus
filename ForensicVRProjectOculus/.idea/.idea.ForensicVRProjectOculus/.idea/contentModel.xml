@@ -420,6 +420,7 @@
             </e>
           </e>
         </e>
+        <e p="siliconeMold.cs" t="Include" />
         <e p="XRSocketInteractorTag.cs" t="Include" />
       </e>
       <e p="ForensicVRProjectOculus.sln" t="IncludeFlat" />
