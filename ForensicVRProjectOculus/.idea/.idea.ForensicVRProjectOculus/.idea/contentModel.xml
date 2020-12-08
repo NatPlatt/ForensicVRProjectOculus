@@ -416,6 +416,7 @@
               <e p="SwapObjects.cs" t="Include" />
             </e>
             <e p="Shaders" t="Include">
+              <e p="myUV.shader" t="Include" />
               <e p="UltraVioletDynamicRecolor.shader" t="Include" />
               <e p="UltraVioletDynamicRecolorALPHA.shader" t="Include" />
               <e p="UltraVioletReveal.shader" t="Include" />
