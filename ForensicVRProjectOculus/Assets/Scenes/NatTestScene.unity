@@ -1437,7 +1437,7 @@ GameObject:
   - component: {fileID: 365227865}
   m_Layer: 9
   m_Name: tweezers
-  m_TagString: hairFiber
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3300,6 +3300,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3239945fb8848d945907e5b3f698f578, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  myAnimState: siliconeMold
 --- !u!114 &714126426
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3324,6 +3325,17 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: makeMold
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 714126425}
+        m_MethodName: RunAnim
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
   triggerExitEvent:

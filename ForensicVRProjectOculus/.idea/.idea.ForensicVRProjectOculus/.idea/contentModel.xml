@@ -390,6 +390,7 @@
           <e p="NetworkPlayerSpawner.cs" t="Include" />
           <e p="Paintable.cs" t="Include" />
           <e p="ParticleEffects.cs" t="Include" />
+          <e p="siliconeMold.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="XRGrabNetworkInteractable.cs" t="Include" />
           <e p="XROffsetGrabInteractable.cs" t="Include" />
@@ -420,7 +421,6 @@
             </e>
           </e>
         </e>
-        <e p="siliconeMold.cs" t="Include" />
         <e p="XRSocketInteractorTag.cs" t="Include" />
       </e>
       <e p="ForensicVRProjectOculus.sln" t="IncludeFlat" />
