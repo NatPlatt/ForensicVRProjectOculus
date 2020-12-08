@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolor.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,6 +57,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
       </list>
     </option>
   </component>
@@ -136,6 +138,7 @@
       <workItem from="1607213943614" duration="2925000" />
       <workItem from="1607383866573" duration="594000" />
       <workItem from="1607385980568" duration="1030000" />
+      <workItem from="1607388158183" duration="3192000" />
     </task>
     <servers />
   </component>

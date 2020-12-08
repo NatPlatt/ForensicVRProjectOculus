@@ -5,7 +5,7 @@ using UnityEngine;
 public class siliconeMold : MonoBehaviour
 {
     private Animator myAnimator;
-    private Animation myAnim;
+    public Animation myAnim;
     public string myAnimState;
    
     // Start is called before the first frame update
@@ -13,15 +13,20 @@ public class siliconeMold : MonoBehaviour
     {
         myAnimator = gameObject.GetComponent<Animator>();
         myAnim = gameObject.GetComponent<Animation>();
+        
     }
 
     public void RunAnim()
     {
-        myAnim[myAnimState].speed = 1;
+        //myAnim[myAnimState].speed = 1;
+        myAnimator.speed = 1;
     }
 
     public void StopAnim()
     {
-        myAnim[myAnimState].speed = 0;
+        //myAnim[myAnimState].speed = 0;
+        //myAnim[myAnimState].weight = 0;
+        myAnimator.speed = 0;
+        
     }
 }
