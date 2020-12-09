@@ -58,10 +58,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -146,6 +146,7 @@
       <workItem from="1607394561387" duration="569000" />
       <workItem from="1607457530905" duration="1149000" />
       <workItem from="1607463654728" duration="595000" />
+      <workItem from="1607533495901" duration="684000" />
     </task>
     <servers />
   </component>

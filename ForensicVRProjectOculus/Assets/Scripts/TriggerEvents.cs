@@ -12,7 +12,7 @@ public class TriggerEvents : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         triggerEnterEvent.Invoke();
-        Debug.Log("I am triggered");
+        Debug.Log("I am triggered by "+ GetComponent<Collider>());
     }
 
     private void OnTriggerExit(Collider other)
