@@ -8,6 +8,7 @@ TagManager:
   - canPowder
   - hairFiber
   - ALS
+  - electrostatic
   layers:
   - Default
   - TransparentFX

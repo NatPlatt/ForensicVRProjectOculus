@@ -13,6 +13,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ALSColorSwitch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Scripts/Fluorescence.cs" root0="FORCE_HIGHLIGHTING" />
@@ -49,7 +50,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
         <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
@@ -62,6 +62,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
       </list>
     </option>
   </component>
@@ -147,6 +149,7 @@
       <workItem from="1607457530905" duration="1149000" />
       <workItem from="1607463654728" duration="595000" />
       <workItem from="1607533495901" duration="684000" />
+      <workItem from="1607554484049" duration="1699000" />
     </task>
     <servers />
   </component>

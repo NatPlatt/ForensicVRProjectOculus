@@ -375,6 +375,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AttachObjs.cs" t="Include" />
+          <e p="CheckTag.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="FingerprintPowder.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
