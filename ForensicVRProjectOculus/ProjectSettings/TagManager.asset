@@ -9,6 +9,7 @@ TagManager:
   - hairFiber
   - ALS
   - electrostatic
+  - roller
   layers:
   - Default
   - TransparentFX
