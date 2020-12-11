@@ -8,17 +8,15 @@ public class CheckTag : MonoBehaviour
 {
     public string tagName;
     public GameObject otherObj;
-    public bool isTriggered;
+    public bool isTriggered = false;
     public UnityEvent myEvent;
-    void Start()
-    {
-        
-    }
+    
 
     public void OnTriggerEnter(Collider other)
     {
         isTriggered = true;
         CheckIt();
+        Debug.Log("I am triggered by "+ GetComponent<Collider>());
     }
 
     public void CheckIt()
