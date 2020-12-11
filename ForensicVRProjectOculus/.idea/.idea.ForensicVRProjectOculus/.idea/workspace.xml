@@ -42,7 +42,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" />
@@ -64,6 +63,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
       </list>
     </option>
   </component>
@@ -151,6 +151,7 @@
       <workItem from="1607533495901" duration="684000" />
       <workItem from="1607554484049" duration="1699000" />
       <workItem from="1607644800324" duration="473000" />
+      <workItem from="1607663587288" duration="108000" />
     </task>
     <servers />
   </component>

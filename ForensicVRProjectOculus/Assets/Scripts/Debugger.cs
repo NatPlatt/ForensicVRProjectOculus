@@ -13,6 +13,6 @@ public class Debugger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("I am triggered");
+        //print("I am triggered");
     }
 }
