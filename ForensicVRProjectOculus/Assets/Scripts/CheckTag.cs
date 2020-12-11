@@ -6,24 +6,31 @@ using UnityEngine.Events;
 
 public class CheckTag : MonoBehaviour
 {
-    public string tagName;
-    public GameObject otherObj;
+    private string tagName;
+    public GameObject myObj;
     public bool isTriggered = false;
     public UnityEvent myEvent;
-    
+
+
+    private void Start()
+    {
+        myObj = GetComponent<GameObject>();
+        myObj.tag = GetComponent<GameObject>().tag;
+    }
 
     public void OnTriggerEnter(Collider other)
     {
         isTriggered = true;
-        CheckIt();
-        Debug.Log("I am triggered by "+ GetComponent<Collider>());
+        tagName = myObj.tag;
+        if (other.tag == tagName)
+        {
+            CheckIt();
+        }
+        Debug.Log(gameObject.name +" triggered by "+ GetComponent<Collider>());
     }
 
     public void CheckIt()
     {
-        if (otherObj.gameObject.CompareTag(tagName) && isTriggered == true)
-        {
-            myEvent.Invoke();
-        }
+        myEvent.Invoke();
     }
 }
