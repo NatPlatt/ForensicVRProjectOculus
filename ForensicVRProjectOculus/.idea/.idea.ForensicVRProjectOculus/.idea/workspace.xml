@@ -59,10 +59,10 @@
         <option value="$PROJECT_DIR$/Assets/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
       </list>
     </option>
@@ -152,7 +152,7 @@
       <workItem from="1607554484049" duration="1699000" />
       <workItem from="1607644800324" duration="473000" />
       <workItem from="1607663587288" duration="108000" />
-      <workItem from="1607715114328" duration="1448000" />
+      <workItem from="1607715114328" duration="4634000" />
     </task>
     <servers />
   </component>
@@ -180,6 +180,8 @@
   <component name="WindowStateProjectService">
     <state x="425" y="187" key="run.anything.popup" />
     <state x="425" y="187" key="run.anything.popup/1920.1080" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.1080/1920.1080/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

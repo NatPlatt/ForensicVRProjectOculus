@@ -10,6 +10,7 @@ TagManager:
   - ALS
   - electrostatic
   - roller
+  - mold
   layers:
   - Default
   - TransparentFX
