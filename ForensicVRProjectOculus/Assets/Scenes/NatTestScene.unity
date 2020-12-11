@@ -15585,7 +15585,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1999252918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
+  m_Script: {fileID: 11500000, guid: a6c257dbb99ca6d409530c8aa510ff26, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 329594941}
@@ -15618,9 +15618,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_AttachTransform: {fileID: 1289930915}
+  m_AttachTransform: {fileID: 0}
   m_AttachEaseInTime: 0.15
-  m_MovementType: 1
+  m_MovementType: 0
   m_TrackPosition: 1
   m_SmoothPosition: 0
   m_SmoothPositionAmount: 5
@@ -15657,11 +15657,11 @@ ConfigurableJoint:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1999252918}
-  m_ConnectedBody: {fileID: 0}
-  m_Anchor: {x: 0, y: 4.6035867, z: 0}
+  m_ConnectedBody: {fileID: 1097164493}
+  m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 9.398924, y: 1.4957659, z: -0.0056319237}
+  m_ConnectedAnchor: {x: 8.900019, y: 0, z: -2.5799904}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 1
@@ -15703,8 +15703,8 @@ ConfigurableJoint:
   m_TargetVelocity: {x: 0, y: 0, z: 0}
   m_XDrive:
     serializedVersion: 3
-    positionSpring: 0
-    positionDamper: 0
+    positionSpring: 1000
+    positionDamper: 200
     maximumForce: 3.4028233e+38
   m_YDrive:
     serializedVersion: 3
