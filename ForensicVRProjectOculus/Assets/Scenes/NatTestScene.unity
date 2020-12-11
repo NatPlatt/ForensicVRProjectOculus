@@ -6564,8 +6564,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 722a818c80c7fe9449203892b8834119, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_InteractionManager: {fileID: 2727635933061855455, guid: 572f79b5749d4714b96c0ae655c8aaf8,
-    type: 3}
+  m_InteractionManager: {fileID: 329594941}
   m_Colliders: []
   m_InteractionLayerMask:
     serializedVersion: 2
