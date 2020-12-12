@@ -12,7 +12,7 @@ public class MatchIDBehavior : IDBehavior
         public UnityEvent EnterEvent, ExitEvent;
     }
 
-    private NameID otherIdObj;
+    public NameID otherIdObj;
     private IDBehavior otherBehaviorObj;
     public List<PossibleWork> workIdList;
 

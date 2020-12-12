@@ -7,37 +7,59 @@ using UnityEngine.Events;
 public class CheckTag : MonoBehaviour
 {
     public string tagName;
-    public GameObject myObj;
+    private GameObject myObj;
     public bool isTriggered = false;
-    public UnityEvent myEvent;
+    public bool isThisRight = false;
+    public UnityEvent checkItEvent;
+    public UnityEvent doTheThingEvent;
     public UnityEvent triggerEnterEvent;
     public UnityEvent triggerExitEvent;
 
 
     private void Start()
     {
-        //myObj = GetComponent<ameObject>();
+        //myObj = gameObject.GetComponent<GameObject>();
         //myObj.tag = GetComponent<GameObject>().tag;
     }
 
     public void OnTriggerEnter(Collider other)
     {
         isTriggered = true;
-        tagName = myObj.tag;
+       // tagName = myObj.tag;
         if (other.CompareTag(tagName))
         {
             triggerEnterEvent.Invoke();
+            
         }
-        Debug.Log(gameObject.name +" triggered by "+ other.tag);
+
+        if (other.CompareTag(tagName) && isThisRight)
+        {
+            DoTheThing();
+        }
+        
+        //Debug.Log(gameObject.name +" triggered by "+ other.tag);
     }
 
     public void OnTriggerExit(Collider other)
     {
-        triggerExitEvent.Invoke();
+        if (other.CompareTag(tagName) && isThisRight && isTriggered)
+        {
+            triggerExitEvent.Invoke();
+        }
+        
     }
 
-    /*public void CheckIt()
+    public void CheckIt()
     {
-        myEvent.Invoke();
-    }*/
+        isThisRight = true;
+        if (isTriggered && isThisRight)
+        {
+            checkItEvent.Invoke();
+        }
+    }
+
+    public void DoTheThing()
+    {
+        doTheThingEvent.Invoke();
+    }
 }

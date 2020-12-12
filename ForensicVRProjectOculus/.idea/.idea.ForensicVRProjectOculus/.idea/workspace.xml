@@ -22,6 +22,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRMeasuringTape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/LightTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/myUV.shader" root0="FORCE_HIGHLIGHTING" />
@@ -34,6 +35,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletReveal.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ChangeMaterial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolorALPHA.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolor.shader" root0="FORCE_HIGHLIGHTING" />
@@ -52,8 +55,6 @@
         <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" />
         <option value="$PROJECT_DIR$/Assets/siliconeMold.cs" />
@@ -61,9 +62,13 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" />
+        <option value="$PROJECT_DIR$/Assets/ChangeMaterial.cs" />
       </list>
     </option>
   </component>
@@ -153,6 +158,11 @@
       <workItem from="1607644800324" duration="473000" />
       <workItem from="1607663587288" duration="108000" />
       <workItem from="1607715114328" duration="4634000" />
+      <workItem from="1607723620532" duration="1232000" />
+      <workItem from="1607727361910" duration="3625000" />
+      <workItem from="1607733588644" duration="2574000" />
+      <workItem from="1607744003331" duration="4165000" />
+      <workItem from="1607752532715" duration="2989000" />
     </task>
     <servers />
   </component>

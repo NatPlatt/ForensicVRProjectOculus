@@ -8,13 +8,17 @@ public class Paintable : MonoBehaviour
 {
     public GameObject powder;
     public GameObject tapePieceObj;
+    public Rigidbody rb;
     public Transform transform;
-    
+    public Material newMaterial;
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "canPowder")
         {
-            PaintWithPowder(); 
+            PaintWithPowder();
+            //tapePieceObj.GetComponent<Rigidbody>().useGravity = false;
+            //tapePieceObj.transform.position = new Vector3();
+            
         }
         
     }
@@ -27,9 +31,14 @@ public class Paintable : MonoBehaviour
 
     public void MakeTapePiece()
     {
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 1; i++)
         {
             Instantiate(tapePieceObj, transform.position, transform.rotation);
         }
+    }
+
+    public void ChangeTapeColor()
+    {
+        tapePieceObj.GetComponent<Renderer>().material = newMaterial;
     }
 }

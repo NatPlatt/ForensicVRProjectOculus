@@ -8,9 +8,9 @@ TagManager:
   - canPowder
   - hairFiber
   - ALS
-  - electrostatic
-  - roller
   - mold
+  - footShoeImpressions
+  - fingerprint
   layers:
   - Default
   - TransparentFX
