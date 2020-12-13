@@ -6,15 +6,20 @@ public class ChangeMaterial : MonoBehaviour
 {
     public Material rightMaterial;
     public Material otherMaterial;
-    public GameObject prefab;
+    public GameObject prefab1;
+    public GameObject prefab2;
 
     private void Awake()
     {
-        prefab.GetComponent<Renderer>().material = rightMaterial;
+        //prefab1.GetComponent<Renderer>().material = rightMaterial;
+        prefab1.SetActive(true);
+        prefab2.SetActive(false);
     }
 
     public void ChangeColor()
     {
-        prefab.GetComponent<Renderer>().material = otherMaterial;
+        //prefab1.GetComponent<Renderer>().material = otherMaterial;
+        prefab1.SetActive(false);
+        prefab2.SetActive(true);
     }
 }

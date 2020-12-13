@@ -31,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Paintable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
@@ -65,10 +66,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeMaterial.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
       </list>
     </option>
   </component>
@@ -163,6 +165,8 @@
       <workItem from="1607733588644" duration="2574000" />
       <workItem from="1607744003331" duration="4165000" />
       <workItem from="1607752532715" duration="2989000" />
+      <workItem from="1607885621881" duration="2961000" />
+      <workItem from="1607891461005" duration="63000" />
     </task>
     <servers />
   </component>

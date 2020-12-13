@@ -8,6 +8,7 @@ public class Paintable : MonoBehaviour
 {
     public GameObject powder;
     public GameObject tapePieceObj;
+    
     public Rigidbody rb;
     public Transform transform;
     public Material newMaterial;
@@ -34,6 +35,7 @@ public class Paintable : MonoBehaviour
         for (int i = 0; i < 1; i++)
         {
             Instantiate(tapePieceObj, transform.position, transform.rotation);
+            tapePieceObj.SetActive(true);
         }
     }
 

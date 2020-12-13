@@ -407,6 +407,7 @@
             <e p="MatchIDBehavior.cs" t="Include" />
             <e p="NameID.cs" t="Include" />
           </e>
+          <e p="MoveHere.cs" t="Include" />
           <e p="NetworkManager.cs" t="Include" />
           <e p="NetworkPlayer.cs" t="Include" />
           <e p="NetworkPlayerSpawner.cs" t="Include" />
