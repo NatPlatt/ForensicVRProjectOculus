@@ -7,10 +7,9 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class Paintable : MonoBehaviour
 {
     public GameObject powder;
-    public GameObject tapePieceObj;
-    public string otherObj;
+    private GameObject tapePieceObj;
+    public string activeTape;
     public List<GameObject> piecesOfTape;
-    public Rigidbody rb;
     public Transform transform;
     public Material newMaterial;
     public int triggerPressNum =0;
@@ -20,8 +19,6 @@ public class Paintable : MonoBehaviour
         {
             PaintWithPowder();
         }
-        otherObj = other.GetComponent<GameObject>().name;
-       // if (otherObj == )
     }
 
     public void PaintWithPowder()
@@ -39,8 +36,8 @@ public class Paintable : MonoBehaviour
                 piecesOfTape[triggerPressNum].transform.position = transform.position;
                 piecesOfTape[triggerPressNum].transform.rotation = transform.rotation;
                 piecesOfTape[triggerPressNum].SetActive(true);
-                //Instantiate(tapePieceObj, transform.position, transform.rotation);
-                // tapePieceObj.SetActive(true);
+                activeTape = piecesOfTape[triggerPressNum].name;
+                tapePieceObj = piecesOfTape[triggerPressNum];
             }
         }
     }

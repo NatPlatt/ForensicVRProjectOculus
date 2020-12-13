@@ -512,10 +512,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 142957779}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -2877,10 +2875,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 401098677}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -3098,10 +3094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 420814405}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -3878,7 +3872,6 @@ GameObject:
   - component: {fileID: 587679685}
   - component: {fileID: 587679684}
   - component: {fileID: 587679683}
-  - component: {fileID: 587679682}
   m_Layer: 9
   m_Name: TapePieceFingerprint1
   m_TagString: fingerprint
@@ -3901,26 +3894,6 @@ Transform:
   m_Father: {fileID: 885010228}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &587679682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 587679680}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powder: {fileID: 0}
-  tapePieceObj: {fileID: 587679680}
-  otherObj: 
-  piecesOfTape: []
-  rb: {fileID: 0}
-  transform: {fileID: 0}
-  newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
-  triggerPressNum: 0
 --- !u!114 &587679683
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4419,7 +4392,6 @@ GameObject:
   - component: {fileID: 641407457}
   - component: {fileID: 641407456}
   - component: {fileID: 641407455}
-  - component: {fileID: 641407454}
   m_Layer: 9
   m_Name: TapePieceFingerprint3
   m_TagString: fingerprint
@@ -4442,26 +4414,6 @@ Transform:
   m_Father: {fileID: 885010228}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &641407454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 641407452}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powder: {fileID: 0}
-  tapePieceObj: {fileID: 641407452}
-  otherObj: 
-  piecesOfTape: []
-  rb: {fileID: 0}
-  transform: {fileID: 0}
-  newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
-  triggerPressNum: 0
 --- !u!114 &641407455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5799,7 +5751,6 @@ GameObject:
   - component: {fileID: 788112652}
   - component: {fileID: 788112651}
   - component: {fileID: 788112650}
-  - component: {fileID: 788112649}
   m_Layer: 9
   m_Name: TapePieceFingerprint2
   m_TagString: fingerprint
@@ -5822,26 +5773,6 @@ Transform:
   m_Father: {fileID: 885010228}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &788112649
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 788112647}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powder: {fileID: 0}
-  tapePieceObj: {fileID: 788112647}
-  otherObj: 
-  piecesOfTape: []
-  rb: {fileID: 0}
-  transform: {fileID: 0}
-  newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
-  triggerPressNum: 0
 --- !u!114 &788112650
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6086,10 +6017,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 818440649}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -6954,10 +6883,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1002409492}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -7360,10 +7287,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1031558252}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -7899,10 +7824,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1115625721}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -8120,10 +8043,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1140183852}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -8896,10 +8817,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1234652836}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -11376,10 +11295,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1354107018}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -11861,10 +11778,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1426321013}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -12082,10 +11997,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1426844811}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -12303,10 +12216,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1438483941}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -17946,11 +17857,11 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls:
         - m_Target: {fileID: 1578521113}
-          m_MethodName: ChangeTapeColor
-          m_Mode: 1
+          m_MethodName: OnTriggerEnter
+          m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_ObjectArgument: {fileID: 1578521112}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Collider, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
@@ -17985,8 +17896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 0}
-  otherObj: 
+  activeTape: 
   piecesOfTape:
   - {fileID: 6497598783367670993}
   - {fileID: 587679680}
@@ -18008,9 +17918,8 @@ MonoBehaviour:
   - {fileID: 401098677}
   - {fileID: 420814405}
   - {fileID: 1002409492}
-  rb: {fileID: 0}
   transform: {fileID: 0}
-  newMaterial: {fileID: 0}
+  newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
 --- !u!54 &1578521114
 Rigidbody:
@@ -18079,10 +17988,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 1594523151}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -19946,10 +19853,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 2009263264}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -20464,11 +20369,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 1310065341516486874, guid: 84de284154e5b2e48b58753518f2bcf2, type: 3}
-  tapePieceObj: {fileID: 6497598783402083322, guid: 0a7b907c73b79974ea1e015360c700cf,
-    type: 3}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 6497598783402083313, guid: 0a7b907c73b79974ea1e015360c700cf, type: 3}
   transform: {fileID: 1611330296}
   newMaterial: {fileID: 0}
   triggerPressNum: 0
@@ -20553,10 +20455,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   powder: {fileID: 0}
-  tapePieceObj: {fileID: 2089913741}
-  otherObj: 
+  activeTape: 
   piecesOfTape: []
-  rb: {fileID: 0}
   transform: {fileID: 0}
   newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
   triggerPressNum: 0
@@ -21452,7 +21352,6 @@ GameObject:
   - component: {fileID: 7944222097219406404}
   - component: {fileID: 5102437771569840413}
   - component: {fileID: 8101623834901487527}
-  - component: {fileID: 6497598783367670994}
   m_Layer: 9
   m_Name: TapePieceFingerprint0
   m_TagString: fingerprint
@@ -21460,26 +21359,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
---- !u!114 &6497598783367670994
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6497598783367670993}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  powder: {fileID: 0}
-  tapePieceObj: {fileID: 6497598783367670993}
-  otherObj: 
-  piecesOfTape: []
-  rb: {fileID: 0}
-  transform: {fileID: 0}
-  newMaterial: {fileID: 2100000, guid: 4a45018355ed805438eb7ba3f405048c, type: 2}
-  triggerPressNum: 0
 --- !u!33 &6497598783367671005
 MeshFilter:
   m_ObjectHideFlags: 0
