@@ -19,6 +19,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Scripts/Fluorescence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
@@ -73,6 +74,7 @@
         <option value="$PROJECT_DIR$/Assets/ChangeMaterial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" />
       </list>
     </option>
   </component>
@@ -170,6 +172,7 @@
       <workItem from="1607885621881" duration="2961000" />
       <workItem from="1607891461005" duration="63000" />
       <workItem from="1607891736406" duration="5365000" />
+      <workItem from="1607913834552" duration="880000" />
     </task>
     <servers />
   </component>

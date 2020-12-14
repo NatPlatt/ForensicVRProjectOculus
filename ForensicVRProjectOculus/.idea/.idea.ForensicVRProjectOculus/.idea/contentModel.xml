@@ -414,6 +414,7 @@
           <e p="NetworkPlayerSpawner.cs" t="Include" />
           <e p="Paintable.cs" t="Include" />
           <e p="ParticleEffects.cs" t="Include" />
+          <e p="SetTheBool.cs" t="Include" />
           <e p="siliconeMold.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="VRMeasuringTape.cs" t="Include" />
