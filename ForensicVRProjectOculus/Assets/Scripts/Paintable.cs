@@ -8,8 +8,8 @@ public class Paintable : MonoBehaviour
 {
     public GameObject powder;
     private GameObject tapePieceObj;
-    public string activeTape;
-    public List<GameObject> piecesOfTape;
+    public List<GameObject> objectsList
+        ;
     public Transform transform;
     public Material newMaterial;
     public int triggerPressNum =0;
@@ -29,15 +29,14 @@ public class Paintable : MonoBehaviour
 
     public void MakeTapePiece()
     {
-        if (triggerPressNum <= piecesOfTape.Count)
+        if (triggerPressNum <= objectsList.Count)
         {
             for (int i = 0; i < 1; i++)
             {
-                piecesOfTape[triggerPressNum].transform.position = transform.position;
-                piecesOfTape[triggerPressNum].transform.rotation = transform.rotation;
-                piecesOfTape[triggerPressNum].SetActive(true);
-                activeTape = piecesOfTape[triggerPressNum].name;
-                tapePieceObj = piecesOfTape[triggerPressNum];
+                objectsList[triggerPressNum].transform.position = transform.position;
+                objectsList[triggerPressNum].transform.rotation = transform.rotation;
+                objectsList[triggerPressNum].SetActive(true);
+                tapePieceObj = objectsList[triggerPressNum];
             }
         }
     }

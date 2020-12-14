@@ -73,8 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" />
         <option value="$PROJECT_DIR$/Assets/ChangeMaterial.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
       </list>
     </option>
   </component>
@@ -172,7 +172,8 @@
       <workItem from="1607885621881" duration="2961000" />
       <workItem from="1607891461005" duration="63000" />
       <workItem from="1607891736406" duration="5365000" />
-      <workItem from="1607913834552" duration="880000" />
+      <workItem from="1607913834552" duration="2072000" />
+      <workItem from="1607918177012" duration="678000" />
     </task>
     <servers />
   </component>

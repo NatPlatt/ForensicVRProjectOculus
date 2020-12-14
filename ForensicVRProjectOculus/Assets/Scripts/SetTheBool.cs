@@ -19,12 +19,7 @@ public class SetTheBool : MonoBehaviour
     {
         myBool = false;
     }
-
-    public void OnTriggerEnter(Collider other)
-    {
-        myBool = other.GetComponent<SetTheBool>().myBool;
-    }
-
+    
     public void RunTheCorrectEvent()
     {
         if (myBool == true)
