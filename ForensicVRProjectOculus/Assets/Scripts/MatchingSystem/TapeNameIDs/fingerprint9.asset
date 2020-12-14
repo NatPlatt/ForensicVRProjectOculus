@@ -9,8 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 27be04a5e7d83b041840e008b429f6ca, type: 3}
-  m_Name: TapePieces
+  m_Script: {fileID: 11500000, guid: 63d7e758f852d9644a4b11a57222a8ef, type: 3}
+  m_Name: fingerprint9
   m_EditorClassIdentifier: 
-  objList:
-  - {fileID: 6497598783402083322, guid: 0a7b907c73b79974ea1e015360c700cf, type: 3}
+  name: fingerprint0
