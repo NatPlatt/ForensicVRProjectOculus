@@ -6862,12 +6862,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 652269033}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4.5, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.06260861, y: 5.3643975, z: 0.011817762}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 10392241}
-  m_RootOrder: 2
+  m_Father: {fileID: 10392247}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!135 &652269035
 SphereCollider:
@@ -11879,6 +11879,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameIdObj: {fileID: 11400000, guid: 4337c11469196054abe2a9cbb8c4bed2, type: 2}
+--- !u!1 &1224887648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1224887649}
+  m_Layer: 9
+  m_Name: swab here
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1224887649
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1224887648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.76, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1557130129}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1230032205
 GameObject:
   m_ObjectHideFlags: 0
@@ -22007,6 +22037,7 @@ Transform:
   m_LocalScale: {x: 0.1369741, y: 0.1369741, z: 0.1369741}
   m_Children:
   - {fileID: 543450653507167193}
+  - {fileID: 1224887649}
   m_Father: {fileID: 142864724}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -22048,7 +22079,7 @@ MonoBehaviour:
   m_OnActivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1557130132}
         m_MethodName: MakeTapePiece
         m_Mode: 1
         m_Arguments:
@@ -22059,7 +22090,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1557130132}
         m_MethodName: AddOne
         m_Mode: 1
         m_Arguments:
@@ -22156,7 +22187,7 @@ MonoBehaviour:
   - {fileID: 293558050}
   - {fileID: 1442974373}
   - {fileID: 1437025410}
-  transform: {fileID: 543450653507167193}
+  transform: {fileID: 1224887649}
   newMaterial: {fileID: 0}
   triggerPressNum: 0
 --- !u!65 &1557130133
@@ -24003,6 +24034,7 @@ GameObject:
   - component: {fileID: 1751856329}
   - component: {fileID: 1751856328}
   - component: {fileID: 1751856331}
+  - component: {fileID: 1751856332}
   m_Layer: 0
   m_Name: notBloodStandin
   m_TagString: Untagged
@@ -24018,7 +24050,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1751856326}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.497, y: -1.128, z: -4.673}
+  m_LocalPosition: {x: 1.497, y: -1.128, z: -4.7266}
   m_LocalScale: {x: 0.060518194, y: 0.012691876, z: 0.060518194}
   m_Children: []
   m_Father: {fileID: 142864724}
@@ -24096,7 +24128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
+  nameIdObj: {fileID: 11400000, guid: 69e899dafcc97664bb81ede7df1396c2, type: 2}
   otherIdObj: {fileID: 0}
   workIdList:
   - nameIdObj: {fileID: 11400000, guid: 69e899dafcc97664bb81ede7df1396c2, type: 2}
@@ -24919,6 +24951,19 @@ MonoBehaviour:
     ExitEvent:
       m_PersistentCalls:
         m_Calls: []
+--- !u!65 &1751856332
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751856326}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1768044983
 GameObject:
   m_ObjectHideFlags: 0
@@ -25789,6 +25834,7 @@ GameObject:
   - component: {fileID: 1929057295}
   - component: {fileID: 1929057294}
   - component: {fileID: 1929057297}
+  - component: {fileID: 1929057298}
   m_Layer: 0
   m_Name: bloodStandin
   m_TagString: Untagged
@@ -26705,6 +26751,19 @@ MonoBehaviour:
     ExitEvent:
       m_PersistentCalls:
         m_Calls: []
+--- !u!65 &1929057298
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929057292}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1943429530
 GameObject:
   m_ObjectHideFlags: 0
@@ -29039,8 +29098,8 @@ MonoBehaviour:
   m_OnSelectEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_detectCollisions
+      - m_Target: {fileID: 2123653325}
+        m_MethodName: set_isTrigger
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29053,8 +29112,8 @@ MonoBehaviour:
   m_OnSelectExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: set_detectCollisions
+      - m_Target: {fileID: 2123653325}
+        m_MethodName: set_isTrigger
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29112,7 +29171,18 @@ MonoBehaviour:
           m_CallState: 2
     ExitEvent:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 21636920614559472}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - nameIdObj: {fileID: 11400000, guid: 33325eca14738f54a87381eb9c6f8c46, type: 2}
     EnterEvent:
       m_PersistentCalls:
