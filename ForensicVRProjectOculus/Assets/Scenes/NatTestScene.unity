@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 3938557}
   m_Layer: 9
   m_Name: 1cottonSwab1
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -453,6 +453,11 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 9
       objectReference: {fileID: 0}
+    - target: {fileID: -1751480086967751553, guid: 15dcb4065adfee849b16f76872ad767f,
+        type: 3}
+      propertyPath: m_TagString
+      value: blood
+      objectReference: {fileID: 0}
     - target: {fileID: -1439446068405721328, guid: 15dcb4065adfee849b16f76872ad767f,
         type: 3}
       propertyPath: m_Layer
@@ -471,7 +476,7 @@ PrefabInstance:
     - target: {fileID: 1088619777609266644, guid: 15dcb4065adfee849b16f76872ad767f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.53
+      value: 6.12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15dcb4065adfee849b16f76872ad767f, type: 3}
@@ -481,34 +486,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 10392240}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &10392242 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15dcb4065adfee849b16f76872ad767f,
-    type: 3}
-  m_PrefabInstance: {fileID: 10392240}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &10392246
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 10392242}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
-  otherIdObj: {fileID: 0}
-  workIdList:
-  - nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls: []
 --- !u!4 &10392247 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -2055467150918270020, guid: 15dcb4065adfee849b16f76872ad767f,
@@ -644,7 +621,7 @@ GameObject:
   - component: {fileID: 40870090}
   m_Layer: 9
   m_Name: 11cottonSwab11
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1292,7 +1269,7 @@ GameObject:
   - component: {fileID: 150482601}
   m_Layer: 9
   m_Name: 12cottonSwab12
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1638,6 +1615,19 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 0.25
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!114 &165917197
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 165917190}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5790814c043ed4d8bb5670b9aea2c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: d402185fe5fae9649806ee091dc83322, type: 2}
 --- !u!1 &175042109
 GameObject:
   m_ObjectHideFlags: 0
@@ -1880,7 +1870,7 @@ GameObject:
   - component: {fileID: 176543932}
   m_Layer: 9
   m_Name: 6cottonSwab6
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2611,7 +2601,7 @@ GameObject:
   - component: {fileID: 293558052}
   m_Layer: 9
   m_Name: 17cottonSwab17
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2909,7 +2899,7 @@ GameObject:
   - component: {fileID: 337458239}
   m_Layer: 9
   m_Name: 10cottonSwab10
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4749,7 +4739,7 @@ GameObject:
   - component: {fileID: 406266311}
   m_Layer: 9
   m_Name: 5cottonSwab5
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8205,16 +8195,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 757629912}
-  - component: {fileID: 757629915}
   - component: {fileID: 757629914}
-  - component: {fileID: 757629913}
+  - component: {fileID: 757629915}
   m_Layer: 9
   m_Name: lidSwabSocket
-  m_TagString: Untagged
+  m_TagString: blood
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &757629912
 Transform:
   m_ObjectHideFlags: 0
@@ -8223,45 +8212,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757629911}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06260861, y: 2.86, z: 0.011817762}
+  m_LocalPosition: {x: -0.06260861, y: 2.49, z: 0.011817762}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1464136967}
   m_Father: {fileID: 10392247}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &757629913
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 757629911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameIdObj: {fileID: 11400000, guid: d402185fe5fae9649806ee091dc83322, type: 2}
-  otherIdObj: {fileID: 0}
-  workIdList:
-  - nameIdObj: {fileID: 11400000, guid: d402185fe5fae9649806ee091dc83322, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls: []
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 165917192}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
 --- !u!135 &757629914
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8273,7 +8230,7 @@ SphereCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 1.58
+  m_Radius: 1
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &757629915
 MonoBehaviour:
@@ -8284,14 +8241,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 757629911}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3db3609b73771ee468c027669b2a6be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 329594941}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 757629912}
+  m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
@@ -8332,6 +8289,7 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
+  targetTag: blood
 --- !u!1 &788112647
 GameObject:
   m_ObjectHideFlags: 0
@@ -9058,7 +9016,7 @@ GameObject:
   - component: {fileID: 927885784}
   m_Layer: 9
   m_Name: 8cottonSwab8
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9313,7 +9271,7 @@ GameObject:
   - component: {fileID: 948895577}
   m_Layer: 9
   m_Name: 14cottonSwab14
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10607,7 +10565,7 @@ GameObject:
   - component: {fileID: 1068568383}
   m_Layer: 9
   m_Name: 13cottonSwab13
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12015,6 +11973,866 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nameIdObj: {fileID: 11400000, guid: 4337c11469196054abe2a9cbb8c4bed2, type: 2}
+--- !u!1 &1213799149
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213799150}
+  - component: {fileID: 1213799152}
+  - component: {fileID: 1213799151}
+  m_Layer: 9
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1213799150
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213799149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.04, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2123653324}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1213799151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213799149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
+  otherIdObj: {fileID: 0}
+  workIdList:
+  - nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 21636920614559467}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 21636920614559472}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 33325eca14738f54a87381eb9c6f8c46, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3938557}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 3938562}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: b150ff81e27ed86408cb4b6325bafc22, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1610970380}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1610970385}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 65a33e3a1c8cf6d45a5bf0d97655f499, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1727836501}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1727836506}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 76ccba486d8564243adafdec98f4ae07, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2056749988}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2056749993}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: e251e48fa8275f049a934aada12b3ad3, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 406266311}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 406266316}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: ade1407eb38be594a83b9acf45e7a5e4, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 176543932}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 176543937}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 1f3e9af79eccaf746bf7e7fd00a832aa, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2088745910}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2088745915}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 7a9f9f12873439345b6e6c8c3e4ccb9d, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 927885784}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 927885789}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: bc9ad6939799aae4087eaee7f745f3a6, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1525120771}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1525120776}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 9e5f5b589db33c04c959a828760f3bfa, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 337458239}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 337458244}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 9f81a2d125c6e3b44a619bbd47ac3e1f, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 40870090}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 40870095}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 921d08857298a0541b8f4825eb97afd1, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 150482601}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 150482606}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 617ee873689c12b4fa94bd93827bd9d2, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1068568383}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1068568388}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 47b85786d25e0bd4bb84e139535453db, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 948895577}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 948895582}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 8225f1e3134a3d34f8b9febf321429b9, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1975801108}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1975801113}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 538cfc92c30bc054db171bca4408578f, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2086739393}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 2086739398}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 420188b7dc6b6334291bcf778f2d6ce3, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 293558052}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 293558057}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 7fecbd3af84397a4db77cd9641487527, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1442974375}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1442974380}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - nameIdObj: {fileID: 11400000, guid: 3a4b82c8ee43b684785179655b50a2e2, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1437025412}
+          m_MethodName: RunTheCorrectEvent
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+        - m_Target: {fileID: 652269033}
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1437025417}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+--- !u!135 &1213799152
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213799149}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1224887648
 GameObject:
   m_ObjectHideFlags: 0
@@ -15596,7 +16414,7 @@ GameObject:
   - component: {fileID: 1437025412}
   m_Layer: 9
   m_Name: 19cottonSwab19
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16069,7 +16887,7 @@ GameObject:
   - component: {fileID: 1442974375}
   m_Layer: 9
   m_Name: 18cottonSwab18
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16643,6 +17461,95 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1464136966
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1464136967}
+  - component: {fileID: 1464136969}
+  - component: {fileID: 1464136968}
+  m_Layer: 9
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1464136967
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464136966}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.86, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 757629912}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &1464136968
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464136966}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1464136969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1464136966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: d402185fe5fae9649806ee091dc83322, type: 2}
+  otherIdObj: {fileID: 0}
+  workIdList:
+  - nameIdObj: {fileID: 11400000, guid: d402185fe5fae9649806ee091dc83322, type: 2}
+    EnterEvent:
+      m_PersistentCalls:
+        m_Calls: []
+    ExitEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 165917192}
+          m_MethodName: set_detectCollisions
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 652269035}
+          m_MethodName: set_enabled
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &1465026096
 GameObject:
   m_ObjectHideFlags: 0
@@ -21699,7 +22606,7 @@ GameObject:
   - component: {fileID: 1525120771}
   m_Layer: 9
   m_Name: 9cottonSwab9
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23098,7 +24005,7 @@ GameObject:
   - component: {fileID: 1610970380}
   m_Layer: 9
   m_Name: 2cottonSwab2
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -23861,7 +24768,7 @@ GameObject:
   - component: {fileID: 1727836501}
   m_Layer: 9
   m_Name: 3cottonSwab3
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26949,7 +27856,7 @@ GameObject:
   - component: {fileID: 1975801108}
   m_Layer: 9
   m_Name: 15cottonSwab15
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -27813,7 +28720,7 @@ GameObject:
   - component: {fileID: 2056749988}
   m_Layer: 9
   m_Name: 4cottonSwab4
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28390,7 +29297,7 @@ GameObject:
   - component: {fileID: 2086739393}
   m_Layer: 9
   m_Name: 16cottonSwab16
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28645,7 +29552,7 @@ GameObject:
   - component: {fileID: 2088745910}
   m_Layer: 9
   m_Name: 7cottonSwab7
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29170,8 +30077,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2123653324}
-  - component: {fileID: 2123653326}
   - component: {fileID: 2123653325}
+  - component: {fileID: 2123653326}
   - component: {fileID: 2123653327}
   m_Layer: 9
   m_Name: cottonSwabSocket
@@ -29190,7 +30097,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.06260861, y: 0.86439675, z: 0.011817762}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1213799150}
   m_Father: {fileID: 10392247}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -29203,9 +30111,9 @@ SphereCollider:
   m_GameObject: {fileID: 2123653323}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
-  m_Radius: 1.58
+  m_Radius: 2
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &2123653326
 MonoBehaviour:
@@ -29216,14 +30124,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 2123653323}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 3db3609b73771ee468c027669b2a6be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 329594941}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_AttachTransform: {fileID: 2123653324}
+  m_AttachTransform: {fileID: 0}
   m_StartingSelectedInteractable: {fileID: 0}
   m_OnHoverEnter:
     m_PersistentCalls:
@@ -29234,7 +30142,7 @@ MonoBehaviour:
   m_OnSelectEnter:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2123653325}
+      - m_Target: {fileID: 2123653327}
         m_MethodName: set_isTrigger
         m_Mode: 6
         m_Arguments:
@@ -29245,11 +30153,33 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 757629911}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   m_OnSelectExit:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2123653325}
+      - m_Target: {fileID: 2123653327}
         m_MethodName: set_isTrigger
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 757629911}
+        m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -29264,821 +30194,20 @@ MonoBehaviour:
   m_SocketActive: 1
   m_InteractableHoverScale: 1
   m_RecycleDelayTime: 1
---- !u!114 &2123653327
-MonoBehaviour:
+  targetTag: swab
+--- !u!65 &2123653327
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2123653323}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
   m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e025c2fa1d1c1484ea17b0f0430a6dfa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
-  otherIdObj: {fileID: 0}
-  workIdList:
-  - nameIdObj: {fileID: 11400000, guid: cc2b4fbccf87c8640bdafe02ddfca3e6, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 21636920614559467}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 21636920614559472}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 33325eca14738f54a87381eb9c6f8c46, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 3938557}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 3938562}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: b150ff81e27ed86408cb4b6325bafc22, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1610970380}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1610970385}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 65a33e3a1c8cf6d45a5bf0d97655f499, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1727836501}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1727836506}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 76ccba486d8564243adafdec98f4ae07, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2056749988}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2056749993}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: e251e48fa8275f049a934aada12b3ad3, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 406266311}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 406266316}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: ade1407eb38be594a83b9acf45e7a5e4, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 176543932}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 176543937}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 1f3e9af79eccaf746bf7e7fd00a832aa, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2088745910}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2088745915}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 7a9f9f12873439345b6e6c8c3e4ccb9d, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 927885784}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 927885789}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: bc9ad6939799aae4087eaee7f745f3a6, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1525120771}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1525120776}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 9e5f5b589db33c04c959a828760f3bfa, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 337458239}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 337458244}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 9f81a2d125c6e3b44a619bbd47ac3e1f, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 40870090}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 40870095}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 921d08857298a0541b8f4825eb97afd1, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 150482601}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 150482606}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 617ee873689c12b4fa94bd93827bd9d2, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1068568383}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1068568388}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 47b85786d25e0bd4bb84e139535453db, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 948895577}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 948895582}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 8225f1e3134a3d34f8b9febf321429b9, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1975801108}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1975801113}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 538cfc92c30bc054db171bca4408578f, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2086739393}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2086739398}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 420188b7dc6b6334291bcf778f2d6ce3, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 293558052}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 293558057}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 7fecbd3af84397a4db77cd9641487527, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1442974375}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1442974380}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-  - nameIdObj: {fileID: 11400000, guid: 3a4b82c8ee43b684785179655b50a2e2, type: 2}
-    EnterEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1437025412}
-          m_MethodName: RunTheCorrectEvent
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 652269033}
-          m_MethodName: SetActive
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-    ExitEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1437025417}
-          m_MethodName: set_detectCollisions
-          m_Mode: 6
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+  serializedVersion: 2
+  m_Size: {x: 3, y: 3, z: 3}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2142236462
 GameObject:
   m_ObjectHideFlags: 0
@@ -30306,7 +30435,7 @@ GameObject:
   - component: {fileID: 21636920614559467}
   m_Layer: 9
   m_Name: 0cottonSwab0
-  m_TagString: blood
+  m_TagString: swab
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

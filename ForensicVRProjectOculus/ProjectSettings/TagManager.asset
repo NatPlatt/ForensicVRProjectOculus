@@ -12,6 +12,7 @@ TagManager:
   - footShoeImpressions
   - fingerprint
   - blood
+  - swab
   layers:
   - Default
   - TransparentFX
