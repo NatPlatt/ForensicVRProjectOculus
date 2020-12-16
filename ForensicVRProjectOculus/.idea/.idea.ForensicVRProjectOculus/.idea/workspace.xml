@@ -65,7 +65,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
@@ -75,6 +74,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
       </list>
     </option>
   </component>
@@ -174,6 +174,7 @@
       <workItem from="1607891736406" duration="5365000" />
       <workItem from="1607913834552" duration="2072000" />
       <workItem from="1607918177012" duration="678000" />
+      <workItem from="1607993028563" duration="13000" />
     </task>
     <servers />
   </component>
