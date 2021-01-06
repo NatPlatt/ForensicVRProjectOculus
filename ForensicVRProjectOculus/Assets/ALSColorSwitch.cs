@@ -7,6 +7,9 @@ public class ALSColorSwitch : MonoBehaviour
 {
     public GameObject alsLight;
     public List<Color> lightColors;
+    public List<GameObject> myTriggerobjs;
+    public GameObject currentTrigObj;
+    public GameObject lastTrigObj;
     public Light currentLight;
     public Color myLightColor;
     public float delay = 0f;
@@ -38,12 +41,25 @@ public class ALSColorSwitch : MonoBehaviour
     IEnumerator LightChange()
     {
         //int i = 0;
+        
         if(currentLight.enabled == true)
         {
             myLightColor = lightColors[triggerPress];
+            currentTrigObj = myTriggerobjs[triggerPress];
+            currentTrigObj.SetActive(true);
             alsLight.GetComponent<Light>().color = myLightColor;
-            Debug.Log("the light is now " + currentLight.color + "my light color is " + myLightColor);
+            Debug.Log("On trigger press"+ triggerPress + "active trigger is " + currentTrigObj.name);
+            //Debug.Log("On trigger press"+ triggerPress + "the light is now " + currentLight.color + "my light color is " + myLightColor);
+            
+            if (triggerPress - 1 >= 0 )
+            {
+                lastTrigObj = myTriggerobjs[triggerPress - 1];
+                lastTrigObj.SetActive(false);
+            }
         }
+        
         yield return new WaitForSeconds(delay);
+        
+        
     }
 }

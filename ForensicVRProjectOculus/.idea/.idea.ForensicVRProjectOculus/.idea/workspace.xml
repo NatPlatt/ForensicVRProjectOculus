@@ -54,8 +54,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" />
-        <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
@@ -75,6 +73,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
+        <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
       </list>
     </option>
   </component>
@@ -175,6 +175,7 @@
       <workItem from="1607913834552" duration="2072000" />
       <workItem from="1607918177012" duration="678000" />
       <workItem from="1607993028563" duration="13000" />
+      <workItem from="1609882120598" duration="6440000" />
     </task>
     <servers />
   </component>

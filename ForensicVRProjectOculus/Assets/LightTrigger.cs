@@ -5,11 +5,16 @@ using UnityEngine;
 
 public class LightTrigger : ALSColorSwitch
 {
-    public GameObject visibleByALS;
+    public List<GameObject> visibleByALS;
     public string colorActivate;
+    private GameObject currentActiveObj;
     void Start()
     {
-        visibleByALS.SetActive(false);
+        for (int i = 0; i <= visibleByALS.Count; i++)
+        {
+            visibleByALS[i].SetActive(false);
+        }
+        
     }
 
     // Update is called once per frame
@@ -18,16 +23,17 @@ public class LightTrigger : ALSColorSwitch
         
     }
 
-    public void OnTriggerEnter(Collider other)
+    /*public void OnTriggerEnter(Collider other)
     {
-        //if (visibleByALS.gameObject.tag == "ALS" && colorActivate == "UV" && lightColors[2]==isActiveAndEnabled)
+        if (other.gameObject.tag == "ALS" && visibleByALS.Contains(other.gameObject))
         {
-            visibleByALS.SetActive(true);
+            other.gameObject.SetActive(true);
         }
+        //if (other.gameObject.tag == "ALS" && colorActivate == "UV" && lightColors[2]==myLightColor)
     }
 
     public void OnTriggerExit(Collider other)
     {
-        visibleByALS.SetActive(false);
-    }
+        other.gameObject.SetActive(false);
+    }*/
 }
