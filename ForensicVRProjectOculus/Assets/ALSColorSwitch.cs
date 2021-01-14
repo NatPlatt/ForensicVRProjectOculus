@@ -14,11 +14,14 @@ public class ALSColorSwitch : MonoBehaviour
     public Color myLightColor;
     public float delay = 0f;
     public int triggerPress = 0;
+    public bool glassesOn = false;
+   
     
     private void Start()
     {
         currentLight = GetComponent<Light>();
         currentLight.enabled = false;
+        
     }
     
     public void ChangeLight()
@@ -38,6 +41,16 @@ public class ALSColorSwitch : MonoBehaviour
         triggerPress = 0;
     }
 
+    public void CheckGlassesTrue()
+    {
+        glassesOn = true;
+    }
+    
+    public void CheckGlassesFalse()
+    {
+        glassesOn = false;
+    }
+
     IEnumerator LightChange()
     {
         //int i = 0;
@@ -46,7 +59,11 @@ public class ALSColorSwitch : MonoBehaviour
         {
             myLightColor = lightColors[triggerPress];
             currentTrigObj = myTriggerobjs[triggerPress];
-            currentTrigObj.SetActive(true);
+            if (glassesOn)
+            {
+                currentTrigObj.SetActive(true);
+            }
+            //currentTrigObj.SetActive(true);
             alsLight.GetComponent<Light>().color = myLightColor;
             Debug.Log("On trigger press"+ triggerPress + "active trigger is " + currentTrigObj.name);
             //Debug.Log("On trigger press"+ triggerPress + "the light is now " + currentLight.color + "my light color is " + myLightColor);

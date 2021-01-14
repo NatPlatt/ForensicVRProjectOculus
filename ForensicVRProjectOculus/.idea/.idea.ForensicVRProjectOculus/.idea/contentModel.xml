@@ -398,6 +398,7 @@
           <e p="CheckTag.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="FingerprintPowder.cs" t="Include" />
+          <e p="FollowPlayer.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
           <e p="LocomotionController.cs" t="Include" />
           <e p="MakeParent.cs" t="Include" />

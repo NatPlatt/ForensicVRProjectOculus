@@ -44,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolor.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -74,6 +75,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
       </list>
     </option>
@@ -176,6 +178,7 @@
       <workItem from="1607918177012" duration="678000" />
       <workItem from="1607993028563" duration="13000" />
       <workItem from="1609882120598" duration="6440000" />
+      <workItem from="1610659319899" duration="2947000" />
     </task>
     <servers />
   </component>
