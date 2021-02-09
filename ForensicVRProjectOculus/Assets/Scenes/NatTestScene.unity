@@ -32977,6 +32977,21 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 6339873891787587247, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_AllowDynamicResolution
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6926608596923801893, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859103156016203486, guid: d8c5cebc3d8303740b8aeec0de3829c2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8c5cebc3d8303740b8aeec0de3829c2, type: 3}
 --- !u!4 &6339873890934379933 stripped
