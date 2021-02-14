@@ -15517,6 +15517,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 27c291139ea010c40b656469877c5e29, type: 2}
+    - target: {fileID: -7543879161361972327, guid: 45210e39c83becc4da41fe4b82fa86ee,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da579cdbca4a41a41b06a8b554a0c868, type: 2}
     - target: {fileID: -7308177244235249981, guid: 45210e39c83becc4da41fe4b82fa86ee,
         type: 3}
       propertyPath: m_Convex
@@ -15680,7 +15685,12 @@ PrefabInstance:
     - target: {fileID: -3044686494685264856, guid: 45210e39c83becc4da41fe4b82fa86ee,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 283.05
+      value: 892
+      objectReference: {fileID: 0}
+    - target: {fileID: -3044686494685264856, guid: 45210e39c83becc4da41fe4b82fa86ee,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 156.3
       objectReference: {fileID: 0}
     - target: {fileID: -2937657265619014553, guid: 45210e39c83becc4da41fe4b82fa86ee,
         type: 3}
@@ -15892,6 +15902,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 27c291139ea010c40b656469877c5e29, type: 2}
+    - target: {fileID: 3431326312983322892, guid: 45210e39c83becc4da41fe4b82fa86ee,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 76092db7756e52644b2119ee1f57cbc1, type: 2}
     - target: {fileID: 3462957750780271579, guid: 45210e39c83becc4da41fe4b82fa86ee,
         type: 3}
       propertyPath: m_Convex
@@ -16022,6 +16037,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 496f8350861fed14190ee96d25ea90d4, type: 2}
+    - target: {fileID: 6952412406716923832, guid: 45210e39c83becc4da41fe4b82fa86ee,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: da579cdbca4a41a41b06a8b554a0c868, type: 2}
     - target: {fileID: 7002538674923549614, guid: 45210e39c83becc4da41fe4b82fa86ee,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -16461,6 +16481,19 @@ MonoBehaviour:
   m_TeleportationProvider: {fileID: 0}
   m_MatchOrientation: 0
   m_TeleportTrigger: 0
+--- !u!65 &1311767953
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311767939}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1189.7811, y: 70.64422, z: 1992.929}
+  m_Center: {x: 0, y: 0, z: -4.55307}
 --- !u!1 &1325318684
 GameObject:
   m_ObjectHideFlags: 0
