@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using System.Security.Cryptography.X509Certificates;
+using TMPro;
 using UnityEngine;
 
 [CreateAssetMenu]
@@ -8,11 +9,12 @@ using UnityEngine;
 public class Buttons : ScriptableObject
 {
    public string keyBoard;
+   public TextMeshProUGUI Texting;
+      
 
    public void Words(string Character)
    {
       keyBoard += Character; 
-
 
    }
 
@@ -21,4 +23,20 @@ public class Buttons : ScriptableObject
       keyBoard = "";
    }
 
+   public void backSpace()
+   {
+      if (keyBoard.Length == 0)
+      {
+         return;
+      }
+      else
+      {
+
+         var count = keyBoard.Length;
+
+
+         keyBoard = keyBoard.Remove(keyBoard.Length - 1);
+      }
+   }
+   
 }
