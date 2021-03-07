@@ -9,6 +9,17 @@
       <e p="Assets" t="Include">
         <e p="ALSColorSwitch.cs" t="Include" />
         <e p="ChangeMaterial.cs" t="Include" />
+        <e p="Ipad" t="Include">
+          <e p="iPad Funtionality" t="Include">
+            <e p="Inventory" t="Include">
+              <e p="Inventory 2" t="Include">
+                <e p="Scripts" t="Include">
+                  <e p="AltSocketScaler.cs" t="Include" />
+                </e>
+              </e>
+            </e>
+          </e>
+        </e>
         <e p="LightTrigger.cs" t="Include" />
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
@@ -381,10 +392,17 @@
                 <e p="AppSwitcher.cs" t="Include" />
                 <e p="Buttons.cs" t="Include" />
                 <e p="CameraFollow.cs" t="Include" />
+                <e p="DrawingGallery.cs" t="Include" />
+                <e p="DrawingPad.cs" t="Include" />
+                <e p="DrawingPage.cs" t="Include" />
+                <e p="MarkerDraw.cs" t="Include" />
                 <e p="NotePad.cs" t="Include" />
                 <e p="OnMouseEvent.cs" t="Include" />
                 <e p="OnStartEvent.cs" t="Include" />
                 <e p="PhotoGallery.cs" t="Include" />
+                <e p="SavedGallery.cs" t="Include" />
+                <e p="SaveDrawing.cs" t="Include" />
+                <e p="SavePhoto.cs" t="Include" />
                 <e p="ScreenShot.cs" t="Include" />
                 <e p="ScritableCamera.cs" t="Include" />
                 <e p="TurnOnPhoto.cs" t="Include" />
@@ -395,6 +413,7 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="AttachObjs.cs" t="Include" />
+          <e p="AudioController.cs" t="Include" />
           <e p="CheckTag.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="FingerprintPowder.cs" t="Include" />
