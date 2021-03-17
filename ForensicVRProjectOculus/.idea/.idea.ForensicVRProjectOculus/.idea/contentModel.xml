@@ -21,6 +21,15 @@
           </e>
         </e>
         <e p="LightTrigger.cs" t="Include" />
+        <e p="MTree" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="URP" t="Include">
+              <e p="Bark URP.shader" t="Include" />
+              <e p="Billboard URP.shader" t="Include" />
+              <e p="Leafs URP.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Photon" t="Include">
           <e p="PhotonChat" t="Include">
             <e p="Code" t="Include">
