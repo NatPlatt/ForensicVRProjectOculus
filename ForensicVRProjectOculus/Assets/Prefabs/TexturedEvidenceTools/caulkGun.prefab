@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4798539357013456027}
   - component: {fileID: 4798539357013456026}
   m_Layer: 9
-  m_Name: Particle System
+  m_Name: ParticleSystemCaulkGun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4921,7 +4921,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8050392602797321999, guid: 2489e5f67e46a374f9fd978b3e973a88, type: 3}
 --- !u!95 &5281240434028347772
@@ -5035,7 +5035,7 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 4
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -8545447256379345787, guid: 2489e5f67e46a374f9fd978b3e973a88, type: 3}
 --- !u!1 &5433001444496829882
@@ -5143,9 +5143,9 @@ MonoBehaviour:
   m_OnActivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4798539357013456027}
         m_MethodName: Play
-        m_Mode: 6
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -5165,7 +5165,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5281240434028347772}
         m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
@@ -5179,7 +5179,7 @@ MonoBehaviour:
   m_OnDeactivate:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 4798539357013456027}
         m_MethodName: Stop
         m_Mode: 1
         m_Arguments:
@@ -5201,7 +5201,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 5281240434028347772}
         m_MethodName: SetTrigger
         m_Mode: 5
         m_Arguments:
