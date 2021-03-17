@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2538104786449989448
+--- !u!1 &772910587
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,52 +8,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2538104786449989449}
-  - component: {fileID: 2538104786449989444}
-  - component: {fileID: 2538104786449989451}
-  - component: {fileID: 2538104786449989450}
+  - component: {fileID: 772910588}
+  - component: {fileID: 772910591}
+  - component: {fileID: 772910590}
+  - component: {fileID: 772910589}
   m_Layer: 9
-  m_Name: ScrewdriverMold 1
+  m_Name: interactableMold
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2538104786449989449
+--- !u!4 &772910588
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2538104786449989448}
-  m_LocalRotation: {x: 0.60225385, y: -0.40893203, z: -0.41601357, w: 0.544975}
-  m_LocalPosition: {x: 2.051814, y: 1.6916933, z: 10.069569}
-  m_LocalScale: {x: 0.022099998, y: 0.022100002, z: 0.0221}
-  m_Children:
-  - {fileID: 7905740597735997957}
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 18.432001, y: -93.618004, z: -94.326004}
---- !u!65 &2538104786449989444
+  m_GameObject: {fileID: 772910587}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.697, y: 0, z: 0.377}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2538104786449989449}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &772910591
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2538104786449989448}
+  m_GameObject: {fileID: 772910587}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: -0.8, y: 0, z: -0.54}
---- !u!54 &2538104786449989451
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!54 &772910590
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2538104786449989448}
+  m_GameObject: {fileID: 772910587}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: 0
@@ -63,13 +62,13 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2538104786449989450
+--- !u!114 &772910589
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2538104786449989448}
+  m_GameObject: {fileID: 772910587}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ad34abafad169848a38072baa96cdb2, type: 3}
@@ -137,6 +136,52 @@ MonoBehaviour:
   m_ThrowAngularVelocityScale: 0.25
   m_GravityOnDetach: 0
   m_RetainTransformParent: 1
+--- !u!1 &2538104786449989448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2538104786449989449}
+  - component: {fileID: 2538104786449989444}
+  m_Layer: 9
+  m_Name: ScrewdriverMold 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2538104786449989449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538104786449989448}
+  m_LocalRotation: {x: 0.60225374, y: -0.40893015, z: -0.41601837, w: 0.54497284}
+  m_LocalPosition: {x: 2.051814, y: 1.6916933, z: 10.069569}
+  m_LocalScale: {x: 0.022099998, y: 0.022100002, z: 0.0221}
+  m_Children:
+  - {fileID: 7905740597735997957}
+  - {fileID: 772910588}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 18.432001, y: -93.618004, z: -94.326004}
+--- !u!65 &2538104786449989444
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2538104786449989448}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: -0.8, y: 0, z: -0.74}
 --- !u!1001 &2538104786445802229
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -148,6 +193,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: screwdriverMold (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261687097103695645, guid: 944b033df56102748844b965f0e22722,
+        type: 3}
+      propertyPath: m_Size.z
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5261687097103695645, guid: 944b033df56102748844b965f0e22722,
+        type: 3}
+      propertyPath: m_Center.z
+      value: 0.45
       objectReference: {fileID: 0}
     - target: {fileID: 5661022485213239536, guid: 944b033df56102748844b965f0e22722,
         type: 3}

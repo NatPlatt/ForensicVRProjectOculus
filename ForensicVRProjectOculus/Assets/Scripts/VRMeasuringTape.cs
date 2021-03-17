@@ -29,6 +29,8 @@ public class VRMeasuringTape : MonoBehaviour
 
     public bool isRaycasting { get; set; } = false;
 
+    //public Material[] hightlightMaterial;
+
     private bool moveWRay = true;
 
     public LayerMask tapeMeasureOnly;
@@ -86,6 +88,7 @@ public class VRMeasuringTape : MonoBehaviour
                 if (hit.collider != null)
                 {
                     activeObject = hit.collider.gameObject;
+                   
                     moveWRay = true;
                 }
             }
@@ -99,7 +102,7 @@ public class VRMeasuringTape : MonoBehaviour
                     ToggleActivePointObject();
                 }
 
-                if (!objectToggle)
+                else
                 {
                     activeObject = startPoint;
                     moveWRay = true;
@@ -151,7 +154,7 @@ public class VRMeasuringTape : MonoBehaviour
         {
             objectToggle = false;
         }
-        if (!objectToggle)
+        else
         {
             objectToggle = true;
         }
