@@ -13,6 +13,8 @@ TagManager:
   - fingerprint
   - blood
   - swab
+  - Camera
+  - Inventory Slots
   layers:
   - Default
   - TransparentFX
@@ -28,7 +30,7 @@ TagManager:
   - Grab Ignore Ray
   - Walls
   - ALS
-  - 
+  - NPCCollider
   - 
   - 
   - 
