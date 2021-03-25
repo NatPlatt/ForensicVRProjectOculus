@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 8982597873286698734}
   - component: {fileID: 4939843247653616738}
   - component: {fileID: 7739731235815836265}
+  - component: {fileID: 1640543198}
   m_Layer: 0
   m_Name: partialFootPrintAmido
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7846315018901597569
 Transform:
   m_ObjectHideFlags: 0
@@ -27,9 +28,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7469331430821164859}
-  m_LocalRotation: {x: -0, y: -0.7547331, z: -0, w: 0.65603197}
+  m_LocalRotation: {x: 0, y: -0.75473255, z: 0, w: 0.6560326}
   m_LocalPosition: {x: -2.894, y: 0.709, z: 19.217}
-  m_LocalScale: {x: 0.0092172, y: 0.0092172, z: 0.0092172}
+  m_LocalScale: {x: 0.017764688, y: 0.862069, z: 0.015982352}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -49,7 +50,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7469331430821164859}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -108,3 +109,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 58.906067, y: 0, z: 58.906067}
   m_Center: {x: 0.0000076293945, y: 0.0000029912694, z: 0.000009536743}
+--- !u!114 &1640543198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7469331430821164859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba5790814c043ed4d8bb5670b9aea2c0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameIdObj: {fileID: 11400000, guid: 4c9311d0045526042af9b89243453522, type: 2}
