@@ -704,6 +704,36 @@ Transform:
   m_Father: {fileID: 6339873891787587240}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4955251397873028205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 266314503933906146}
+  m_Layer: 8
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &266314503933906146
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4955251397873028205}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0.074}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6339873891787587240}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6339873890125196391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1174,6 +1204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 927391550}
+  - {fileID: 266314503933906146}
   m_Father: {fileID: 6339873891207235555}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1344,6 +1375,12 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right Hand Presence
       objectReference: {fileID: 0}
+    - target: {fileID: 3621981467535291327, guid: ddc38db09f9124241b4b4e9b2b9831eb,
+        type: 3}
+      propertyPath: handModelPrefab
+      value: 
+      objectReference: {fileID: 5686134208185362930, guid: 123b553017651e04baffcb87d4f69bbe,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddc38db09f9124241b4b4e9b2b9831eb, type: 3}
 --- !u!4 &2387733444766374009 stripped
@@ -1422,7 +1459,7 @@ PrefabInstance:
     - target: {fileID: 4245457492171364763, guid: c836783e3928a624e9ff9c70d4f21606,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c836783e3928a624e9ff9c70d4f21606, type: 3}
@@ -1502,7 +1539,7 @@ PrefabInstance:
     - target: {fileID: 4024951872544157354, guid: cfa8dc06d611ba340b06bbefba58ee46,
         type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cfa8dc06d611ba340b06bbefba58ee46, type: 3}
@@ -1519,6 +1556,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6339873890125196384}
     m_Modifications:
+    - target: {fileID: 1566682737319490981, guid: 6c2509c76b281144cb0099fc45f17a09,
+        type: 3}
+      propertyPath: handModelPrefab
+      value: 
+      objectReference: {fileID: 109434732395284509, guid: 4e9b70223779c964593906ab096a5b13,
+        type: 3}
     - target: {fileID: 3621981467535291324, guid: 6c2509c76b281144cb0099fc45f17a09,
         type: 3}
       propertyPath: m_LocalPosition.x
