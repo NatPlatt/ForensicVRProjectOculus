@@ -29,6 +29,9 @@ public class VRMeasuringTape : MonoBehaviour
 
     public bool isRaycasting { get; set; } = false;
 
+    public Color defaultColor;
+    public Color highlightColor;
+
     //public Material[] hightlightMaterial;
 
     private bool moveWRay = true;
@@ -82,13 +85,13 @@ public class VRMeasuringTape : MonoBehaviour
 
         if (isRaycasting)
         {
-           
+
             if (Physics.SphereCast(tapeMeasure.transform.position, sphereSize, tapeMeasure.forward, out hit, 100, tapeMeasureOnly))
             {
                 if (hit.collider != null)
                 {
                     activeObject = hit.collider.gameObject;
-                   
+                    activeObject.GetComponent<Renderer>().material.color = highlightColor;
                     moveWRay = true;
                 }
             }
@@ -117,11 +120,13 @@ public class VRMeasuringTape : MonoBehaviour
 
         if (startPoint.activeSelf && endPoint.activeSelf)
         {
+            /*
             distanceText.transform.position = endPoint.transform.position + offsetMeasurement;
             distanceText.transform.rotation = endPoint.transform.rotation;
+            */
             measureLine.SetPosition(0, startPoint.transform.position);
             measureLine.SetPosition(1, endPoint.transform.position);
-
+            
             distanceText.text = $"Distance: {(Vector3.Distance(startPoint.transform.position, endPoint.transform.position) * measurementFactor).ToString("F2")} in";
         }
     }
@@ -145,6 +150,7 @@ public class VRMeasuringTape : MonoBehaviour
         else
         {
             moveWRay = false;
+            activeObject.GetComponent<Renderer>().material.color = defaultColor;
         }
     }
 

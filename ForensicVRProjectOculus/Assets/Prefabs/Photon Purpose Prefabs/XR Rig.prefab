@@ -1114,8 +1114,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a402da1265f244d40bf23fa396817d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftTeleportRayInteractor: {fileID: 8787562842657053985}
-  rightTeleportRayInteractor: {fileID: 8787562841374583567}
+  leftTeleportRay: {fileID: 0}
+  rightTeleportRay: {fileID: 0}
   teleportActivateButton: 2
   activationThreshold: 0.1
 --- !u!1 &8787562842657054012

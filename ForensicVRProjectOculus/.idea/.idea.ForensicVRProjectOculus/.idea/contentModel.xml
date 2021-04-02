@@ -9,6 +9,11 @@
       <e p="Assets" t="Include">
         <e p="ALSColorSwitch.cs" t="Include" />
         <e p="ChangeMaterial.cs" t="Include" />
+        <e p="Impala" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Exit.cs" t="Include" />
+          </e>
+        </e>
         <e p="Ipad" t="Include">
           <e p="iPad Funtionality" t="Include">
             <e p="Inventory" t="Include">
@@ -335,6 +340,11 @@
             </e>
             <e p="link.xml" t="Include" />
             <e p="readme.txt" t="Include" />
+            <e p="Resources" t="Include">
+              <e p="NetworkManager.cs" t="Include" />
+              <e p="NetworkPlayer.cs" t="Include" />
+              <e p="NetworkPlayerSpawner.cs" t="Include" />
+            </e>
             <e p="UtilityScripts" t="Include">
               <e p="Culling" t="Include">
                 <e p="CullArea.cs" t="Include" />
@@ -424,6 +434,7 @@
           <e p="AttachObjs.cs" t="Include" />
           <e p="AudioController.cs" t="Include" />
           <e p="CheckTag.cs" t="Include" />
+          <e p="ContinuousMovement.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="FingerprintPowder.cs" t="Include" />
           <e p="FollowPlayer.cs" t="Include" />
@@ -438,13 +449,17 @@
             <e p="ObjList.cs" t="Include" />
           </e>
           <e p="MoveHere.cs" t="Include" />
-          <e p="NetworkManager.cs" t="Include" />
-          <e p="NetworkPlayer.cs" t="Include" />
-          <e p="NetworkPlayerSpawner.cs" t="Include" />
           <e p="Paintable.cs" t="Include" />
           <e p="ParticleEffects.cs" t="Include" />
           <e p="SetTheBool.cs" t="Include" />
           <e p="siliconeMold.cs" t="Include" />
+          <e p="Tools" t="Include">
+            <e p="Marker System" t="Include">
+              <e p="IntDataEviMarker.cs" t="Include" />
+              <e p="MarkerDispencer.cs" t="Include" />
+              <e p="NumberSequencer.cs" t="Include" />
+            </e>
+          </e>
           <e p="TriggerEvents.cs" t="Include" />
           <e p="VRMeasuringTape.cs" t="Include" />
           <e p="XRGrabNetworkInteractable.cs" t="Include" />
@@ -477,6 +492,7 @@
             </e>
           </e>
         </e>
+        <e p="ShowRaycast.cs" t="Include" />
         <e p="TextMesh Pro" t="Include">
           <e p="Fonts" t="Include">
             <e p="LiberationSans - OFL.txt" t="Include" />

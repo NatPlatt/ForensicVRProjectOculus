@@ -1,5 +1,35 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1005459657
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1005459658}
+  m_Layer: 9
+  m_Name: powderbrushPivot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1005459658
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1005459657}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4874877789153075640}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1 &4912779547891894869
 GameObject:
   m_ObjectHideFlags: 0
@@ -24,7 +54,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4912779547891894869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -30, z: 0}
+  m_LocalPosition: {x: 0, y: -29.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4874877789153075640}
@@ -45,6 +75,7 @@ GameObject:
   - component: {fileID: 4912779548171218061}
   - component: {fileID: 4912779548171218062}
   - component: {fileID: 4912779548171218063}
+  - component: {fileID: 4912779547737830135}
   m_Layer: 9
   m_Name: powderBrush
   m_TagString: powderBrush
@@ -61,9 +92,10 @@ Transform:
   m_GameObject: {fileID: 5254815838591613698}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.954, y: 1.072, z: -0.176}
-  m_LocalScale: {x: 0.0045148, y: 0.0045148, z: 0.0045148}
+  m_LocalScale: {x: 0.0045148004, y: 0.0045148, z: 0.0045148004}
   m_Children:
   - {fileID: 4912779547891894868}
+  - {fileID: 1005459658}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -187,7 +219,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_CustomReticle: {fileID: 0}
-  m_AttachTransform: {fileID: 0}
+  m_AttachTransform: {fileID: 1005459658}
   m_AttachEaseInTime: 0.15
   m_MovementType: 1
   m_TrackPosition: 1
@@ -231,8 +263,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d041c76d272a9474fa1b7e575262b408, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  powder: {fileID: 1310065341516486874, guid: 84de284154e5b2e48b58753518f2bcf2, type: 3}
+  powder: {fileID: 3155106136778622402, guid: cd548158a801c2641a80881cc34e3d41, type: 3}
   objectsList: []
   transform: {fileID: 4912779547891894868}
   newMaterial: {fileID: 0}
   triggerPressNum: 0
+--- !u!65 &4912779547737830135
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5254815838591613698}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 22.787354, y: 58.289032, z: 23.53711}
+  m_Center: {x: 0.000014305116, y: 0.0000009536743, z: 0.000030517578}

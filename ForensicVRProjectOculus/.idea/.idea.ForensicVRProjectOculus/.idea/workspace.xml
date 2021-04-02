@@ -20,8 +20,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Scripts/Fluorescence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRMeasuringTape.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
@@ -33,6 +36,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRGrabNetworkInteractable.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Textures/GrassTextures/GrassShader.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,6 +44,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletReveal.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ChangeMaterial.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolorALPHA.shader" root0="FORCE_HIGHLIGHTING" />
@@ -55,7 +60,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
         <option value="$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ColorData.cs" />
@@ -79,6 +83,8 @@
         <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
       </list>
     </option>
   </component>
@@ -186,6 +192,16 @@
       <workItem from="1615160698543" duration="595000" />
       <workItem from="1615965167691" duration="597000" />
       <workItem from="1616654393557" duration="120000" />
+      <workItem from="1617042042098" duration="253000" />
+      <workItem from="1617119602425" duration="792000" />
+      <workItem from="1617123948375" duration="18000" />
+      <workItem from="1617140355069" duration="596000" />
+      <workItem from="1617141528837" duration="781000" />
+      <workItem from="1617172632056" duration="241000" />
+      <workItem from="1617208112509" duration="775000" />
+      <workItem from="1617223629380" duration="155000" />
+      <workItem from="1617323203385" duration="66000" />
+      <workItem from="1617401144457" duration="59000" />
     </task>
     <servers />
   </component>

@@ -32,7 +32,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6339873891207235555}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &184758442
 MonoBehaviour:
@@ -130,7 +130,7 @@ MonoBehaviour:
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
-  m_EnableUIInteraction: 0
+  m_EnableUIInteraction: 1
 --- !u!120 &184758440
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -369,7 +369,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 6339873891207235555}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &822156773
 MonoBehaviour:
@@ -467,7 +467,7 @@ MonoBehaviour:
   m_RaycastTriggerInteraction: 1
   m_HoverToSelect: 0
   m_HoverTimeToSelect: 0.5
-  m_EnableUIInteraction: 0
+  m_EnableUIInteraction: 1
 --- !u!120 &822156771
 LineRenderer:
   m_ObjectHideFlags: 0
@@ -790,8 +790,8 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 6578208154522858701}
-  m_ModelTransform: {fileID: 6578208154522858701}
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -949,8 +949,8 @@ MonoBehaviour:
   m_ActivateUsage: 2
   m_UIPressUsage: 2
   m_AxisToPressThreshold: 0.1
-  m_ModelPrefab: {fileID: 6231600936773063478}
-  m_ModelTransform: {fileID: 6231600936773063478}
+  m_ModelPrefab: {fileID: 0}
+  m_ModelTransform: {fileID: 0}
   m_AnimateModel: 0
   m_ModelSelectTransition: 
   m_ModelDeSelectTransition: 
@@ -1069,8 +1069,8 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6339873891787587240}
-  - {fileID: 184758438}
   - {fileID: 822156768}
+  - {fileID: 184758438}
   - {fileID: 6339873890125196384}
   - {fileID: 6339873890236985569}
   m_Father: {fileID: 6339873891483687249}
@@ -1168,8 +1168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a402da1265f244d40bf23fa396817d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  leftTeleportRayInteractor: {fileID: 822156773}
-  rightTeleportRayInteractor: {fileID: 184758442}
+  leftTeleportRay: {fileID: 0}
+  rightTeleportRay: {fileID: 0}
   teleportActivateButton: 2
   activationThreshold: 0.1
 --- !u!1 &6339873891787587251
@@ -1375,12 +1375,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Right Hand Presence
       objectReference: {fileID: 0}
+    - target: {fileID: 3621981467535291326, guid: ddc38db09f9124241b4b4e9b2b9831eb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3621981467535291327, guid: ddc38db09f9124241b4b4e9b2b9831eb,
         type: 3}
       propertyPath: handModelPrefab
       value: 
       objectReference: {fileID: 5686134208185362930, guid: 123b553017651e04baffcb87d4f69bbe,
         type: 3}
+    - target: {fileID: 3621981467535291327, guid: ddc38db09f9124241b4b4e9b2b9831eb,
+        type: 3}
+      propertyPath: controllerCharacteristics
+      value: 512
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddc38db09f9124241b4b4e9b2b9831eb, type: 3}
 --- !u!4 &2387733444766374009 stripped
@@ -1562,6 +1572,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 109434732395284509, guid: 4e9b70223779c964593906ab096a5b13,
         type: 3}
+    - target: {fileID: 1566682737319490981, guid: 6c2509c76b281144cb0099fc45f17a09,
+        type: 3}
+      propertyPath: controllerCharacteristics
+      value: 256
+      objectReference: {fileID: 0}
     - target: {fileID: 3621981467535291324, guid: 6c2509c76b281144cb0099fc45f17a09,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1621,6 +1636,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Left Hand Presence
+      objectReference: {fileID: 0}
+    - target: {fileID: 3621981467535291326, guid: 6c2509c76b281144cb0099fc45f17a09,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6c2509c76b281144cb0099fc45f17a09, type: 3}

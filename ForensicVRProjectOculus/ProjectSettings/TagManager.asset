@@ -15,6 +15,7 @@ TagManager:
   - swab
   - Camera
   - Inventory Slots
+  - moldTrigger
   layers:
   - Default
   - TransparentFX
@@ -31,7 +32,7 @@ TagManager:
   - Walls
   - ALS
   - NPCCollider
-  - 
+  - MeasuringTape
   - 
   - 
   - 
