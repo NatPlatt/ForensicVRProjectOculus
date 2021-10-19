@@ -7,10 +7,11 @@ public class FingerprintPowder : MonoBehaviour
 {
     public GameObject fingerprint;
     public GameObject powderBrush;
-    public float colorRender;
+    //public float colorRender;
     public float delay = 0f;
     public float touchNum = 0.1f;
     public Color powderColor;
+    public string brushTagName;
     public void Start()
     { 
         fingerprint.GetComponent<Renderer>().material.color = powderColor;
@@ -25,7 +26,7 @@ public class FingerprintPowder : MonoBehaviour
     IEnumerator PowderIt()
     {
         touchNum += 0.1f;
-        if (powderBrush.gameObject.tag == "powderBrush" && touchNum <= 1)
+        if (powderBrush.gameObject.tag == brushTagName && touchNum <= 1)
         {
             fingerprint.GetComponent<Renderer>().material.color = new Color(0.142f, 0.142f,0.142f, touchNum);
 

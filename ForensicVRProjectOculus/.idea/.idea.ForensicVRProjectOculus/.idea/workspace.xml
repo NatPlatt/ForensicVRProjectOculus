@@ -1,245 +1,111 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6c42e57-cd8d-4f68-a0f3-2df2e75e4c66" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="ee1ca5b8-3ab3-4eb5-b696-a1aec182e9dd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ALSColorSwitch.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Scripts/Fluorescence.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/Launcher.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Demos/PunBasics-Tutorial/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/VRMeasuringTape.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/LightTrigger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/myUV.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Paintable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/XRRayInteractor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XRGrabNetworkInteractable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Textures/GrassTextures/GrassShader.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/XRInteractionManager.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Debugger.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletReveal.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/ChangeMaterial.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayerSpawner.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Interactors/Helpers/XRInteractorLineVisual.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolorALPHA.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders &amp; Effects Package/Ultraviolet (Blacklight)/Shaders/UltraVioletDynamicRecolor.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.1.4/Rider/Editor/RiderInitializer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Interaction/Controllers/XRController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Tools/Marker System/IntDataEviMarker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/LocomotionSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.collab-proxy@1.2.16/Editor/Collab/CollabToolbarButton.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/HandPresence.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/HandPresence.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ParticleEffects.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/XROffsetGrabInteractable.cs" />
-        <option value="$PROJECT_DIR$/Assets/XRSocketInteractorTag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/NameID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ColorData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ColorData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MakeParent.cs" />
-        <option value="$PROJECT_DIR$/Assets/siliconeMold.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/siliconeMold.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/AttachObjs.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CheckTag.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/NameID.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/MatchIDBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/IDBehavior.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MoveHere.cs" />
-        <option value="$PROJECT_DIR$/Assets/ChangeMaterial.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MatchingSystem/ObjList.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SetTheBool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TriggerEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/LightTrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FollowPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/ALSColorSwitch.cs" />
-        <option value="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/NetworkPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@0.9.4-preview/Runtime/Locomotion/Teleportation/TeleportationProvider.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LocomotionController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Tools/Marker System/NumberSequencer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/FingerprintPowder.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/McKade/DictationRecognitionCaller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Paintable.cs" />
+    </changedPaths>
   </component>
-  <component name="ProjectId" id="1jzNQCgZ4v5RaJuDirohL687kmo" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1r0PpE8h2RmwFFuy4txaIlEib6l" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
-    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
-    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="preferences.updates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/../GameBuilds\ForensicVRProjectOculus.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\nzoll\OneDrive\2021Spring\ForensicsProject2\GameBuilds" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <method v="2" />
+    </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="userSelectedPid" value="false" />
+      <option name="projectPathOnTarget" />
+      <option name="selectedOptions">
+        <list />
+      </option>
       <method v="2" />
     </configuration>
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d6c42e57-cd8d-4f68-a0f3-2df2e75e4c66" name="Default Changelist" comment="" />
-      <created>1604802942568</created>
+      <changelist id="ee1ca5b8-3ab3-4eb5-b696-a1aec182e9dd" name="Default Changelist" comment="" />
+      <created>1618110216307</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1604802942568</updated>
-      <workItem from="1604802947100" duration="531000" />
-      <workItem from="1604804355648" duration="663000" />
-      <workItem from="1604954794030" duration="339000" />
-      <workItem from="1605302801370" duration="4466000" />
-      <workItem from="1605554420568" duration="3213000" />
-      <workItem from="1605573722217" duration="2852000" />
-      <workItem from="1605747813976" duration="2690000" />
-      <workItem from="1605751777819" duration="7360000" />
-      <workItem from="1606165130614" duration="3104000" />
-      <workItem from="1606180403047" duration="458000" />
-      <workItem from="1606181149043" duration="741000" />
-      <workItem from="1606182285714" duration="748000" />
-      <workItem from="1606183237334" duration="2484000" />
-      <workItem from="1606259642675" duration="2418000" />
-      <workItem from="1606513725204" duration="11277000" />
-      <workItem from="1606601936966" duration="5131000" />
-      <workItem from="1606865691199" duration="22000" />
-      <workItem from="1606865729663" duration="820000" />
-      <workItem from="1606962321270" duration="795000" />
-      <workItem from="1606964829299" duration="1717000" />
-      <workItem from="1607204056792" duration="627000" />
-      <workItem from="1607213943614" duration="2925000" />
-      <workItem from="1607383866573" duration="594000" />
-      <workItem from="1607385980568" duration="1030000" />
-      <workItem from="1607388158183" duration="3192000" />
-      <workItem from="1607394561387" duration="569000" />
-      <workItem from="1607457530905" duration="1149000" />
-      <workItem from="1607463654728" duration="595000" />
-      <workItem from="1607533495901" duration="684000" />
-      <workItem from="1607554484049" duration="1699000" />
-      <workItem from="1607644800324" duration="473000" />
-      <workItem from="1607663587288" duration="108000" />
-      <workItem from="1607715114328" duration="4634000" />
-      <workItem from="1607723620532" duration="1232000" />
-      <workItem from="1607727361910" duration="3625000" />
-      <workItem from="1607733588644" duration="2574000" />
-      <workItem from="1607744003331" duration="4165000" />
-      <workItem from="1607752532715" duration="2989000" />
-      <workItem from="1607885621881" duration="2961000" />
-      <workItem from="1607891461005" duration="63000" />
-      <workItem from="1607891736406" duration="5365000" />
-      <workItem from="1607913834552" duration="2072000" />
-      <workItem from="1607918177012" duration="678000" />
-      <workItem from="1607993028563" duration="13000" />
-      <workItem from="1609882120598" duration="6440000" />
-      <workItem from="1610659319899" duration="2947000" />
-      <workItem from="1614031225337" duration="25000" />
-      <workItem from="1614031465845" duration="9000" />
-      <workItem from="1615160698543" duration="595000" />
-      <workItem from="1615965167691" duration="597000" />
-      <workItem from="1616654393557" duration="120000" />
-      <workItem from="1617042042098" duration="253000" />
-      <workItem from="1617119602425" duration="792000" />
-      <workItem from="1617123948375" duration="18000" />
-      <workItem from="1617140355069" duration="596000" />
-      <workItem from="1617141528837" duration="781000" />
-      <workItem from="1617172632056" duration="241000" />
-      <workItem from="1617208112509" duration="775000" />
-      <workItem from="1617223629380" duration="155000" />
-      <workItem from="1617323203385" duration="66000" />
-      <workItem from="1617401144457" duration="59000" />
+      <updated>1618110216307</updated>
+      <workItem from="1618110227574" duration="3495000" />
+      <workItem from="1618267040813" duration="1120000" />
+      <workItem from="1618276539151" duration="63000" />
+      <workItem from="1618276950846" duration="486000" />
+      <workItem from="1618277456041" duration="20000" />
+      <workItem from="1618678176149" duration="914000" />
+      <workItem from="1618704707095" duration="634000" />
+      <workItem from="1618805806699" duration="911000" />
+      <workItem from="1619235079898" duration="2373000" />
+      <workItem from="1619538237303" duration="660000" />
+      <workItem from="1619731589787" duration="1252000" />
+      <workItem from="1619744812383" duration="664000" />
+      <workItem from="1619817732646" duration="66000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="425" y="187" key="run.anything.popup" />
-    <state x="425" y="187" key="run.anything.popup/1920.1080" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.1080/1920.1080/1920.1080" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

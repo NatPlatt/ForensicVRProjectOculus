@@ -64,6 +64,8 @@ public class VRMeasuringTape : MonoBehaviour
 
         startPoint.SetActive(false);
         startPoint.SetActive(false);
+
+        activeObject = startPoint;
     }
 
     private void OnEnable()

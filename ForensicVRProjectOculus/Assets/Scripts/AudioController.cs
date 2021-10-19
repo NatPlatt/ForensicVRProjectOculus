@@ -15,6 +15,7 @@ public class AudioController : MonoBehaviour
     {
         if (_audioSource.isPlaying) return;
         _audioSource.Play();
+
     }
 
     public void StopMusic()

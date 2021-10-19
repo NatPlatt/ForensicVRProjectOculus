@@ -6,6 +6,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class AltSocketScaler : XRSocketInteractor
 {
     public float scaleNew = .2f;
+    public GameObject objForSO;
     //public bool canScale { get; set; } = true;
     //public bool canInteract = true;
 
@@ -23,6 +24,7 @@ public class AltSocketScaler : XRSocketInteractor
    
     protected override void OnSelectEnter(XRBaseInteractable interactable)
     {
+        objForSO = interactable.gameObject;
         base.OnSelectEnter(interactable);
         objectToScale = interactable.GetComponentInChildren<Collider>();
         if (startScale == Vector3.zero)

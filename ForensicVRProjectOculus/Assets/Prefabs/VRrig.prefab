@@ -1170,7 +1170,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   leftTeleportRay: {fileID: 0}
   rightTeleportRay: {fileID: 0}
-  teleportActivateButton: 2
+  leftteleportActivateButton: 0
+  rightteleportActivateButton: 0
   activationThreshold: 0.1
 --- !u!1 &6339873891787587251
 GameObject:
